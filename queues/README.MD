@@ -15,19 +15,3 @@ Front                       Rear
 Dequeue (Remove from Front)
 Removes: Task 1
 ```
-
-``` python
-queue = []
-
-queue.append("Task 1")
-queue.append("Task 2")
-queue.append("Task 3")
-
-print("Current Queue:", queue)
-
-removed_item = queue.pop(0)
-print("Removed:", removed_item)
-
-print("Queue Now:", queue)
-
-```
